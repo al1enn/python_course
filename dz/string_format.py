@@ -47,5 +47,5 @@ my_dict = {
 }
 print("user name:{}\nuser age:{}".format(
     my_dict.get("name"), my_dict.get("age")))
-p=my_dict.pop('name')
+p = my_dict.pop('name')
 print(my_dict)
