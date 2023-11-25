@@ -16,3 +16,13 @@
 #     if counter % 5 == 0:
 #         print(counter)
 #     counter -=1
+
+#!Словари
+my_dict = {
+    "name": 'Timur',
+    "age": "25"
+}
+print("user name:{}\nuser age:{}".format(
+    my_dict.get("name"), my_dict.get("age")))
+p = my_dict.pop('name')
+print(my_dict)
