@@ -166,3 +166,14 @@ s = 'abcdd'
 u = check_sequence_unique(s)
 print(u)
 """
+
+
+import timeit
+
+def my_function():
+    print("dfd")
+
+start = timeit.default_timer()
+my_function()
+stop = timeit.default_timer()
+print(f'time: {stop - start} seconds')
